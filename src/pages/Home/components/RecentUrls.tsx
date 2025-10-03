@@ -1,5 +1,5 @@
 import React from "react";
-import type { UrlRecord } from "../../services/db";
+import type { UrlRecord } from "../../../services/db";
 import UrlCardList from "./UrlCardList";
 
 interface RecentUrlsProps {

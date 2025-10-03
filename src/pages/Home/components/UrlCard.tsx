@@ -1,4 +1,4 @@
-import type { UrlRecord } from "../../services/db";
+import type { UrlRecord } from "../../../services/db";
 
 const UrlCard = ({
 	code: alias,

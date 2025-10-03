@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Form from "./Form";
+import Form from "./components/Form";
 import { getAllUrls, type UrlRecord } from "../../services/db";
-import RecentUrls from "./RecentUrls";
+import RecentUrls from "./components/RecentUrls";
 
 const Home = () => {
 	const [urls, setUrls] = useState<UrlRecord[]>([]);

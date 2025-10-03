@@ -1,6 +1,6 @@
 import React from "react";
 import UrlCard from "./UrlCard";
-import type { UrlRecord } from "../../services/db";
+import type { UrlRecord } from "../../../services/db";
 
 interface UrlCardListProps {
 	urls: UrlRecord[];

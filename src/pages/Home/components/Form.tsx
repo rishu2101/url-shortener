@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { saveUrl, type UrlRecord } from "../../services/db";
-import { aliasExists } from "../../services/db";
-import { generateCode } from "../../utils/generateCode";
-import { MAX_ALIAS_LENGTH } from "../../constants";
+import { saveUrl, type UrlRecord } from "../../../services/db";
+import { aliasExists } from "../../../services/db";
+import { generateCode } from "../../../utils/generateCode";
+import { MAX_ALIAS_LENGTH } from "../../../constants";
 
 interface FormProps {
 	onCreated: (record: UrlRecord) => void;
