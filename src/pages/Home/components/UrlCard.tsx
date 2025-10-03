@@ -15,7 +15,9 @@ const UrlCard = ({
 
 			<div className="mt-4 flex flex-col sm:flex-row justify-between items-start sm:items-center text-sm text-gray-500 gap-2">
 				<span>Clicks: {clicks}</span>
-				<span>Expires: {expiry || "Never"}</span>
+				<span>
+					Expires: {expiry ? new Date(expiry).toLocaleString() : "Never"}
+				</span>
 			</div>
 
 			<a
