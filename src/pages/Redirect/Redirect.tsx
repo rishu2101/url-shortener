@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { getUrl, saveUrl } from "../services/db";
+import { getUrl, saveUrl } from "../../services/db";
 
 const Redirect = () => {
 	const { code } = useParams<{ code: string }>();

@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { QRCodeCanvas } from "qrcode.react";
-import CopyHelper from "./common/CopyHelper";
+import CopyHelper from "./CopyHelper";
 import { QR_CODE_FILE_NAME } from "../constants";
 
 interface QrCodeProps {
